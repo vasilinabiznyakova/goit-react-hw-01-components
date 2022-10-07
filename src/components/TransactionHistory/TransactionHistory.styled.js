@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid grey;
   border-collapse: collapse;
   text-align: center;
