@@ -8,7 +8,7 @@ export const Container = styled.section`
 export const Title = styled.h2`
   background-color: white;
   text-align: center;
-  padding-top: ${p => p.theme.space[1]};
+  padding-top: theme.space;
   padding-bottom: ${p => p.theme.space[1]};
 `;
 
@@ -34,5 +34,6 @@ export const Label = styled.span`
 
 export const Percentage = styled.span`
   padding-bottom: ${p => p.theme.space[1]};
-  font-size: 18px;
+  font-size: 32px;
+  font-weight: ;
 `;
